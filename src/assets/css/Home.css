@@ -11,5 +11,24 @@
   padding: 3% 5%;
   display: flex;
   justify-content: flex-start;
-  overflow-x: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.hier-main-div {
+  padding: 0 4%;
+}
+
+.left-btn,
+.right-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-btn {
+  left: 0;
+}
+.right-btn {
+  right: 0;
 }

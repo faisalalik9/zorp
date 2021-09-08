@@ -7,15 +7,15 @@ function TeamInfo({teamInfo}) {
                 <tbody>
                     <tr>
                         <td>Type</td>
-                        <td>{teamInfo.type}</td>
+                        <td>{teamInfo?.type}</td>
                     </tr>
                     <tr>
                         <td>Team Id</td>
-                        <td>{teamInfo.teamId}</td>
+                        <td>{teamInfo?.teamId}</td>
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td>{teamInfo.name}</td>
+                        <td>{teamInfo?.name}</td>
                     </tr>
                 </tbody>
             </table>
