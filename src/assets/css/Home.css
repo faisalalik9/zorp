@@ -1,0 +1,15 @@
+.user-carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.user-carousel-container {
+  width: 80%;
+  padding: 3% 5%;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: scroll;
+}

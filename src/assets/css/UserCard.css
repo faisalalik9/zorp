@@ -1,0 +1,32 @@
+.user-card-main-div {
+  min-width: 550px;
+  margin: 0px 300px;
+}
+
+.u-c-container {
+  width: 100%;
+  padding: 6%;
+  background-color: #ffdab9;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.u-c-container table {
+  width: 100%;
+}
+
+.u-c-container tr {
+  margin: 5px 0;
+}
+
+.left-td {
+  width: 60%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.right-td {
+  width: 40%;
+  font-size: 16px;
+  font-weight: 500;
+}
