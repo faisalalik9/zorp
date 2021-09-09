@@ -1,21 +1,22 @@
 import React from 'react'
+import '../assets/css/TeamInfo.css'
 
 function TeamInfo({teamInfo}) {
     return (
-        <div>
+        <div className="t-info-main-div">
             <table>
                 <tbody>
                     <tr>
-                        <td>Type</td>
-                        <td>{teamInfo?.type}</td>
+                        <td className="ltd">Type</td>
+                        <td className="rtd">{teamInfo?.type}</td>
                     </tr>
                     <tr>
-                        <td>Team Id</td>
-                        <td>{teamInfo?.teamId}</td>
+                        <td className="ltd">Team Id</td>
+                        <td className="rtd">{teamInfo?.teamId}</td>
                     </tr>
                     <tr>
-                        <td>Name</td>
-                        <td>{teamInfo?.name}</td>
+                        <td className="ltd">Name</td>
+                        <td className="rtd">{teamInfo?.name}</td>
                     </tr>
                 </tbody>
             </table>

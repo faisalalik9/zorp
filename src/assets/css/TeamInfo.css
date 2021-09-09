@@ -1,0 +1,27 @@
+.t-info-main-div {
+  width: 100%;
+}
+
+.t-info-main-div table {
+  min-width: 400px;
+  /* padding-left: 2%; */
+}
+
+.t-info-main-div tr {
+  margin: 10px 0px !important;
+}
+
+.margin-custom {
+  margin-left: 3%;
+}
+
+.childs-list {
+  list-style: decimal;
+}
+.child-element {
+  margin: 2rem 0;
+}
+
+.team-name {
+  cursor: pointer;
+}

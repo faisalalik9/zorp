@@ -17,6 +17,7 @@
 
 .hier-main-div {
   padding: 0 4%;
+  margin-bottom: 15vh;
 }
 
 .left-btn,
@@ -24,6 +25,9 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  font-size: 36px;
+  cursor: pointer;
+  user-select: none;
 }
 
 .left-btn {
@@ -31,4 +35,70 @@
 }
 .right-btn {
   right: 0;
+}
+
+.user-card {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.user-card.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.view-carousel {
+  margin-top: 2vh;
+  width: fit-content;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+  border: 2px solid #473bf0;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.view-carousel:hover {
+  background-color: #473bf0;
+  color: white;
+}
+.v-active {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.team-name {
+  width: fit-content;
+  color: #473bf0;
+}
+
+footer {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  letter-spacing: 1px;
+}
+
+.footer {
+  padding: 10px 0;
+  background: #444;
+}
+.nova {
+  color: white;
+  text-decoration: none;
+}
+.nova:hover {
+  text-decoration: none;
+  color: blue;
 }

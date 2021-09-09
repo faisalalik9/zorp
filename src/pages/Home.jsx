@@ -22,18 +22,16 @@ function Home() {
     },[]);
 
     return (
-        <div className="hier-main-div">
-            <h1>Data</h1>
-            <Team teamData={data?.data[0]}/>
+        <div>
+            <div className="hier-main-div">
+                <h1>Team Hierarchy Data</h1>
+                <Team teamData={data?.data[0]}/>
+            </div>
 
-            {/* <TeamInfo teamInfo={data?.data[0]} />
-            <UserCarousel usersData={data?.data[0]?.users} /> */}
-            {/* <h4>Children</h4>
-            {data?.data[0]?.children.map(child=>{
-                return(
-                    <Team teamData={child}/>
-                )
-            })} */}
+
+             <footer>
+                <p>Made with ❤️ by <a className="nova" target="_blank" href="https://faisalalik9-portfolio.herokuapp.com/">nova</a></p>
+            </footer>
         </div>
     )
 }
